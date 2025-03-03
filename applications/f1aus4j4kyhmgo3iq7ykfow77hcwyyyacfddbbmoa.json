@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1aus4j4kyhmgo3iq7ykfow77hcwyyyacfddbbmoa",
+  "Issue Number": "5",
+  "Client": {
+    "Name": "Feige Technology",
+    "Region": "China",
+    "Industry": "IT & Technology Services",
+    "Website": "https://fileguard.io/",
+    "Social Media": "https://github.com/cryptomandy",
+    "Social Media Type": "Slack",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "As a pioneer in AI data services, Feige has been dedicated to providing comprehensive data solutions for algorithm enterprises since 2018. We have integrated a unified service system of software and hardware, covering the full-process services including data collection, verification, cleaning, desensitization, annotation, storage, and transmission. With professional technical capabilities and premium service quality, Feige has successfully served over 30 AI enterprise clients, including industry leaders such as MEGVII (Face++), SenseTime, and JD Finance. To date, we have provided more than 20 million annotated image data sets, with approximately 200,000 professional crowd-workers collaborating on our platform.\n\nAs a deep participant in the Web3 ecosystem, Feige is actively advancing the storage deployment of machine learning and deep learning datasets on the Filecoin network. We focus on three core areas of artificial intelligence: Computer Vision (CV), Natural Language Processing (NLP), and Speech Processing. We firmly believe that storing high-value datasets through Web3 technology - including autonomous driving, cancer research, disease diagnosis, geographic information, agricultural production, speech recognition, and natural language processing - will bring revolutionary changes to the industry.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This application including 4 AWS open dataset focus on autonomous driving:\n\n1. Boreas Autonomous Driving Dataset\nLINK: https://registry.opendata.aws/boreas/\nThis autonomous driving dataset includes data from a 128-beam Velodyne Alpha-Prime lidar, a 5MP Blackfly camera, a 360-degree Navtech radar, and post-processed Applanix POS LV GNSS data.\n\n2. A2D2: Audi Autonomous Driving Dataset\nLINK: https://registry.opendata.aws/aev-a2d2/\nAn open multi-sensor dataset for autonomous driving research. This dataset comprises semantically segmented images, semantic point clouds, and 3D bounding boxes.\n\n3. KITTI Vision Benchmark Suite\nhttps://registry.opendata.aws/kitti/\nDataset and benchmarks for computer vision research in the context of autonomous driving. The dataset has been recorded in and around the city of Karlsruhe, Germany using the mobile platform AnnieWay (VW station wagon) which has been equipped with several RGB and monochrome cameras, a Velodyne HDL 64 laser scanner as well as an accurate RTK corrected GPS/IMU localization unit.\n\n4. Ford Multi-AV Seasonal Dataset\nLINK: https://registry.opendata.aws/ford-multi-av-seasonal/\nThis research presents a challenging multi-agent seasonal dataset collected by a fleet of Ford autonomous vehicles at different days and times during 2017-18.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://boreas/\ns3://aev-autonomous-driving-dataset/\ns3://ford-multi-av-seasonal/\ns3://avg-kitti/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Monthly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "1. f01824405, CN\n2. f0685706,  HK\n3. f01828146, HK\n4. f03179570, SP\n5. f03229933, KR",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "500TiB",
+    "Single Size Dataset": "125TiB",
+    "Replicas": 4,
+    "Weekly Allocation": "100 TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-03 01:48:13.698914886 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1aus4j4kyhmgo3iq7ykfow77hcwyyyacfddbbmoa",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
