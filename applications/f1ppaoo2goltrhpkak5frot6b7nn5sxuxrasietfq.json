@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ppaoo2goltrhpkak5frot6b7nn5sxuxrasietfq",
+  "Issue Number": "7",
+  "Client": {
+    "Name": "HTL",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "https://www.xinpianchang.com/",
+    "Social Media": "2428581996@qq.com",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Since its inception, our company has been committed to producing and delivering premium entertainment video content across a diverse range of fields, including travel, sports, lifestyle, and narrative short films. We strive to provide high-quality leisure and storytelling videos to a global audience, utilizing innovative technologies and platforms to make these contents more accessible and engaging. This DataCap application aims to store our extensive collection of leisure videos and narrative short films on the Filecoin network, ensuring the security, integrity, and long-term availability of this valuable data.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This dataset comprises a diverse array of leisure video content, spanning entertainment, travel, sports, lifestyle, and more. The videos are available in high-definition formats, optimized through compression and processing for seamless streaming and downloading. By storing this data on the Filecoin network, we ensure its long-term durability, enhanced security, and global accessibility for users worldwide.",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "The data will undergo local processing, including compression, conversion, and standardization, utilizing tools such as FFmpeg to ensure all videos meet the necessary requirements for storage and transmission. Following this, the graphsplit program will be employed to generate a .car file that adheres to the specified standards. Finally, the venus tool will be used to package the data, ensuring it is optimized for secure and efficient storage on the Filecoin network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.xinpianchang.com/a10666931?from=IndexPick&part=%E7%8C%9C%E4%BD%A0%E6%83%B3%E7%9C%8B&index=16\nhttps://www.xinpianchang.com/a11906694?from=IndexPick&part=%E7%8C%9C%E4%BD%A0%E6%83%B3%E7%9C%8B&index=18",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Daily",
+    "For how long do you plan to keep this dataset stored on Filecoin": "More than 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Europe, North America",
+    "How will you be distributing your data to storage providers": "Venus built-in data transfer, Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03298672 DE\nf03298673 DE\nf03308933 UK\nf03308920 JP \nf03308922 JP",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "800TiB",
+    "Replicas": 5,
+    "Weekly Allocation": "800TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-03 07:01:44.366042486 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ppaoo2goltrhpkak5frot6b7nn5sxuxrasietfq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
